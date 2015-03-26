@@ -1,0 +1,46 @@
+$light:                           #222222;
+$stable:                          #f8f8f8;
+$positive:                        #7a1313;
+$calm:                            #11c1f3;
+$balanced:                        #33cd5f;
+$energized:                       #ffc900;
+$assertive:                       #ef473a;
+$royal:                           #886aea;
+$dark:                            #888888;
+
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+
+// Include all of Ionic
+@import "www/lib/ionic/scss/ionic";
+
+.scroll-content {
+	background-image: url('/img/background.jpg');
+	background-position: fixed; 
+}
+
+.item-complex, .item-content, .item {
+	padding: 10px;
+	background-color:#fff;
+
+	img {
+		box-shadow: 1px 1px 2px rgba(0,0,0,.3);
+	}
+}
+
+.activated {
+	background: #222;
+}
+
+.item {
+	border-color: #f2e1e1;
+
+	h3, p > i {
+		color:#7a1313;
+	}
+}
+
+
+
+
+
+

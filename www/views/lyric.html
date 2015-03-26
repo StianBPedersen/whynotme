@@ -1,0 +1,22 @@
+<ion-view title="{{ album.title }}" class="bar-positive">
+  <ion-content class="has-header">
+    <ion-list class="songs">
+      <ion-item ng-repeat="song in album.songs track by $index" style="padding:0;" class="item">
+       	<div ng-show="+playingIndex === +$index" ng-click="hideLyrics($index);" class="selected"> 
+					<span style="position:absolute;top:12px;right:10px;">
+            <i class="icon ion-chevron-down" style="font-size: 24px;"></i>
+          </span>
+          <h3>{{ $index+1 + ". " + song.title }}</h3>
+	      	<pre style="text-indent:0;">{{ song.lyrics }}</pre>
+		 		</div>
+				<div ng-show="+playingIndex !== +$index" ng-click="showLyrics($index)" class="selected">
+					<h3>{{ $index+1 + ". " + song.title }}</h3>
+           <span style="position:absolute;top:12px;right:10px;">
+            <i class="icon ion-chevron-right" style="font-size: 24px;"></i>
+          </span>
+		    </div>
+
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

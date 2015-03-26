@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+    <link href="css/ionic.app.min.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="ng-cordova.min.js"></script>
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    <script src="js/controllers/controllers.js"></script>
+    <script src="js/services/services.js"></script>
+    <script src="js/directives/directives.js"></script>
+  </head>
+  <body ng-app="whynotme" class="platform-ios platform-cordova platform-webview">
+    <ion-nav-bar class="bar-positive" animation="slide-left-right-ios7">
+      <ion-nav-header></ion-nav-header>
+       <ion-nav-back-button></ion-nav-back-button>
+    </ion-nav-bar>
+
+    <ion-nav-view></ion-nav-view>
+
+
+    <ion-footer-bar align-title="left" class="bar-assertive" style="margin:0;padding:0;"> 
+      <ion-tabs class="tabs-icon-top tabs-color-active-positive" style="border-top: 1px dashed #000000;">
+        <ion-tab title="Whynotme" icon-off="ion-person-stalker" icon-on="ion-person-stalker" ui-sref="app.start"></ion-tab>
+        <ion-tab title="Songs" icon-off="ion-headphone" icon-on="ion-headphone" ui-sref="app.albums"></ion-tab>
+        <ion-tab title="Lyrics" icon-off="ion-mic-c" icon-on="ion-mic-c" ui-sref="app.lyrics"></ion-tab>
+         <ion-tab title="Chords" icon-off="ion-music-note" icon-on="ion-music-note" ui-sref="app.chords"></ion-tab>
+      </ion-tabs>
+    </ion-footer-bar>   
+  
+  </body>
+</html>

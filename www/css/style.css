@@ -1,0 +1,97 @@
+/* Empty. Add your own CSS if you like */
+body { }
+body, h1, h2, h3, h4, h5, h6, pre { font-family: 'Shadows Into Light', cursive; }
+
+.col-10 {
+	-webkit-box-flex: 0;-webkit-flex: 0 0 10%;-moz-box-flex: 0;-moz-flex: 0 0 10%;-ms-flex: 0 0 10%;flex: 0 0 10%;max-width: 10%; }
+.col-20 {
+	-webkit-box-flex: 0;-webkit-flex: 0 0 20%;-moz-box-flex: 0;-moz-flex: 0 0 20%;-ms-flex: 0 0 20%;flex: 0 0 20%;max-width: 20%; }
+.col-30 {
+	-webkit-box-flex: 0;-webkit-flex: 0 0 30%;-moz-box-flex: 0;-moz-flex: 0 0 30%;-ms-flex: 0 0 30%;flex: 0 0 30%;max-width: 30%; }
+.col-70 {
+	-webkit-box-flex: 0;-webkit-flex: 0 0 70%;-moz-box-flex: 0;-moz-flex: 0 0 70%;-ms-flex: 0 0 70%;flex: 0 0 70%;max-width: 70%; }
+.col-80 {
+	-webkit-box-flex: 0;-webkit-flex: 0 0 80%;-moz-box-flex: 0;-moz-flex: 0 0 80%;-ms-flex: 0 0 80%;flex: 0 0 80%;max-width: 80%; }
+
+/* MAIN */
+pre { padding: 8px 0 15px 0;}
+
+
+/* BAR */
+.bar .title { font-size: 1.8em;}
+.bar.bar-positive {
+	border-bottom: 1px dashed #000;
+}
+
+.scroll-content, .pane {
+  background-image: url('./../img/background2.jpg');
+  background-position: fixed; 
+	background-repeat: no-repeat;
+	
+}
+
+/* LIST */
+.item { color: #7a1313;background-color:#fff;}
+.item.activated { background:#fff;}
+.item h3 { font-size: 1.3em;}
+.item-complex .item-content { padding: 10px;background-color:transparent;}
+
+.albums .item p { color:#7a1313;font-size: 1.2em;}
+.albums .row { padding: 0; }
+.albums .row .col { padding: 0; }
+.albums .row .col-10 { width: 100%;height:100%;text-align:center;vertical-align: middle;}
+
+.tab-nav.tabs {
+	background:none;
+	background-color: #7a1313;
+	border-top: 1px dashed #000000;
+}
+
+ion-tabs.tabs-color-active-positive .tab-item.activated, ion-tabs.tabs-color-active-positive .tab-item.active, ion-tabs.tabs-color-active-positive .tab-item.tab-item-active {
+	color: #fff;
+	background:#7a1313;
+}
+
+ion-tabs.tabs-color-active-positive .tab-item {
+	color: #A25959;
+	background:#7a1313;
+}
+
+.item .item-content.activated {
+	background:#fff;
+}
+
+.item .selected { padding:10px;position:relative; }
+.item .activated.selected { background:#fff;}
+.item .activated.selected h3 { color:#7a1313; }
+
+.slider {
+	margin: 30px;
+	background: #7a1313;
+	opacity: 1;
+	border-radius: 5px;
+	min-height: 490px;
+	max-height: 490px;
+	max-width: 320px;
+	box-shadow: 0 0 2px 1px rgba(0,0,0,.3);
+}
+
+.slider-slides {
+	min-height: 490px;
+	max-height: 490px;
+}
+
+.slider-slides img {
+	width: 100%;
+	border-radius: 4px 4px 0 0;
+	height: 100%;
+}
+
+.slider-pager .slider-pager-page {
+	color:#fff;
+}
+
+
+
+
+
