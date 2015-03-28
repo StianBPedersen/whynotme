@@ -16,6 +16,7 @@
 							title: 'Welcome to Methadonia', 
 							url: '', 
 							duration: '',
+							chords: '',
 							lyrics: 'We are the typically race of cold black heart. '+
 											'Maybe you have heard of us, '+
 											'build it up and tear it apart. '+
