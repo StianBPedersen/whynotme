@@ -13,40 +13,46 @@
 					cover: 'when_nonsense_makes_perfect_sense.jpg',
 					songs: [
 						{ 
-							title: 'Welcome to Methadonia', 
-							url: '', 
+							title: 'Welcome to Metadonia', 
+							url: '2.07', 
 							duration: '',
+							chords: 'Verse: C | D# | A# | G | G#\n'+
+											'Ref: C | D# | A# | G# G\n'+
+											'Part: G# | C :: A# | G :: (C | D D#)',
 							lyrics: 'We are the typically race of cold black heart. '+
 											'Maybe you have heard of us, '+
 											'build it up and tear it apart. '+
 											'We are the only ones with the time and means. '+
 											'Puff puff give, pop a pill. I\'m still high it\'s making me ill.\n\n'+
-											'Welcome, welcome, welcome to Methadonia. '+
-											'Welcome, welcome, welcome to Methadonia. '+
-											'Welcome, welcome, welcome to Methadonia. '+
+											'Welcome, welcome, welcome to Metadonia. '+
+											'Welcome, welcome, welcome to Metadonia. '+
+											'Welcome, welcome, welcome to Metadonia. '+
 											'Welcome, wake up, welcome to where time stands still we kill.\n\n'+
 											'We\'ve been wasting to much time, you or yours of mine. '+
 											'I\'ve been watching to much porn, wanking of I\'m almost blind. '+
 											'Late at night turn to the streets, pick up the pace, get drunk. '+
 											'Where the ones with the booze, to much drugs, fucked up tattoos!\n\n'+
-											'Welcome, welcome, welcome to Methadonia. '+
-											'Welcome, welcome, welcome to Methadonia. '+
-											'Welcome, welcome, welcome to Methadonia. '+
+											'Welcome, welcome, welcome to Metadonia. '+
+											'Welcome, welcome, welcome to Metadonia. '+
+											'Welcome, welcome, welcome to Metadonia. '+
 											'Welcome, wake up, welcome to where time stands still we kill.\n\n'+
 											'We are the one intoxicated. '+
 											'We are the ones married than separated. '+
 											'We\'re alcoholics, self abusers. '+
 											'Liver damage, drugs users.\n\n'+
-											'Welcome, welcome, welcome to Methadonia. '+
-											'Welcome, welcome, welcome to Methadonia. '+
-											'Welcome, welcome, welcome to Methadonia. '+
+											'Welcome, welcome, welcome to Metadonia. '+
+											'Welcome, welcome, welcome to Metadonia. '+
+											'Welcome, welcome, welcome to Metadonia. '+
 											'Welcome, wake up, welcome to where time stands still we kill.'
 
 						},
 						{ 
 							title: 'Hate and aggression', 
-							url: '', 
+							url: '2:16', 
 							duration: '',
+							chords: 'Intro: Dm | D/A# | F C\n'+
+											'Verse: Dm | F | C :: E | F | G :: D\n'+
+											'Ref: A# | G | Dm | F',
 							lyrics: 'What if we all woke up. '+
 											'And said enough is enough. '+
 											'Do you think they would listen to us. '+
@@ -82,8 +88,12 @@
 						},
 						{ 
 							title: 'Hello cockatoo', 
-							url: '', 
+							url: '1:55', 
 							duration: '',
+							chords: 'Intro: Dm | Dmsus2\n'+
+											'Verse: Dm | Am | Dm | G | Dm :: G | Am | Dm\n'+
+											'Part: Dm | F | Am\n'+
+											'Outro: Dm | F | C | Am',
 							lyrics: 'A classic example of a boy\'s young mind. '+
 											'He tells the girl her breasts are fine. '+
 											'She\'s got a saggy ass that smells like shit. '+
@@ -113,7 +123,10 @@
 						{ 
 							title: 'Paint the town bright', 
 							url: '', 
-							duration: '',
+							duration: '1:37',
+							chords: 'Verse: A# | C | D :: F\n'+
+											'Ref: A# | C | F | D | A# | C | F\n'+
+											'Part: D | F | G | A#',
 							lyrics: 'So nice, waking up alone again, my head don\'t hurt from the night before. '+
 											'So good I think I got used, but didn\'t have to pay for a whore.\n\n'+
 											'So tonight, it\'s allright, I\'m gonna get drunk and I\'m gonna fight. '+
@@ -132,9 +145,10 @@
 						},
 						{ 
 							title: 'Fuck you then', 
-							url: '', 
+							url: '1:38', 
 							duration: '',
-							chords: 'Verse: D | G | D | C D | D# | A# | D# | E# D#\n'+
+							chords: 'Intro: D | C D | D# D A# | A G | D# | A D D# D A | G\n'+
+											'Verse: D | G | D | C D | D# | A# | D# | E# D#\n'+
 											'Ref: G | Hb | F | C D | D# | D | G',
 							lyrics: 'Takes a while, finding a way to cosurvive. Not pushed aside, by all of you. '+
 											'Under the impression of let me through, don\'t care what happens to. '+
@@ -151,8 +165,13 @@
 						},
 						{ 
 							title: 'Beats me',
-							url: '',
+							url: '2:11',
 							duration: '',
+							chords: 'Intro: H | F# | E | F# | D C# :: F# | G\n'+
+											'Verse: H | F# | E | F# | D C# :: E | G | D | A :: F# | G\n'+
+											'Bridge: E\n'+
+											'Ref: H | E | G | D | A :: F# | A\n'+
+											'Part: H | G F# | E | F# G F# | D | A | F# | G A E',
 							lyrics: 'All the wealth we enjoy, we\'ve got from gold. '+
 											'No green direction, we pollute our souls. '+
 											'We\'ve got nothing to show for the day the drain runs out of flow. '+
@@ -182,7 +201,10 @@
 						{ 
 							title: 'Killer like killer', 
 							url: '', 
-							duration: '',
+							duration: '3:12',
+							chords: 'Intro: G\n'+
+											'Verse: G | Hb | F | C | D\n'+
+											'Ref (A#) | F | C | D# | F :: G',
 							lyrics: 'If you we\re to say you\'ve commited no crime. '+
 											'You would be a lier, you would be wasting my time. '+
 											'Cause I know so much better, sons are together. '+
@@ -230,7 +252,11 @@
 						{ 
 							title: 'In a bag', 
 							url: '',
-							duration: '',
+							duration: '1:49',
+							chords: 'Intro F# G\n'+
+											'Verse: G | C | G | G | F | G\n'+
+											'Bridge: C | D | E | A | D\n'+
+											'Ref: G | C | G | C | G | D | G',
 							lyrics: 'I have figured out a brand new game. '+
 											'It is to walk in a bag. '+
 											'From my place in it I can see you. '+
@@ -685,7 +711,18 @@
  					pubyear: 'May 2008', 
  					cover: 'And_out_came_shit.jpg',
  					songs: [
- 						{ title: 'Sparkling chandeliers', url: 'Sparkling_chandeliers/Sparkling_chandeliers.mp3', duration: '3.24'}
+ 						{ 
+ 							title: 'Sparkling chandeliers', 
+ 							url: 'Sparkling_chandeliers/Sparkling_chandeliers.mp3', 
+ 							duration: '3.24',
+ 							chords: 'Intro: E | C | G | D | E\n'+
+ 											'Verse: E | C | G | D\n'+
+ 											'Bridge: C | A | E\n'+
+ 											'Ref: C | A | E | G :: C | A | E\n'+
+ 											'Part: C | A | E'+
+ 											'Outro: C | A | E | G',
+ 							lyrics: ''
+ 						}
  					]
  				},
  				{ 

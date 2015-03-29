@@ -91,6 +91,10 @@ ion-tabs.tabs-color-active-positive .tab-item {
 	color:#fff;
 }
 
+.labelmaker {
+	position:absolute;right: 10px;bottom: 14px;background:rgba(255,255,255,.4);padding: 5px 10px;
+}
+
 
 
 
