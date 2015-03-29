@@ -7,76 +7,15 @@ angular.module('whynotme', [
   'ionic', 
   'ngCordova.plugins.media', 
   'ngCordova.plugins.splashscreen',
+  'whynotme.config.routes',
   'whynotme.controllers', 
   'whynotme.services',
-  'whynotme.directives'
+  'whynotme.directives',
+  'whynotme.filters'
 ])
 .constant('ALBUMSURL', 'https://s3-eu-west-1.amazonaws.com/whynotme/Albums/')
-.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
-  
+.config(function($ionicConfigProvider) {
   $ionicConfigProvider.backButton.previousTitleText(false).text('');
-
-  $urlRouterProvider.otherwise('/start');
-  
-  $stateProvider
-    .state('app', {
-      url: '/app',
-      template: '<ion-nav-view></ion-nav-view>',
-      abstract: true,
-      controller: 'AppCtrl',
-      resolve: {
-        Albums: function(Album) {
-          return Album.query();
-        }
-      }
-    })
-
-    .state('app.start', {
-      url: '/start',
-      controller: 'StartCtrl',
-      templateUrl: 'views/start.html'
-    })
-
-    .state('app.albums', {
-      url: '/albums',
-      controller: 'AlbumsCtrl',
-      templateUrl: 'views/albums.html'
-    })
-
-    .state('app.lyrics', {
-      url: '/lyrics',
-      controller: 'LyricsCtrl',
-      templateUrl: 'views/lyrics.html'
-    })
-
-    .state('app.chords', {
-      url: '/choords',
-      controller: 'ChordsCtrl',
-      templateUrl: 'views/chords.html'
-    })
-
-    .state('app.chord', {
-      url: '/chord/:id',
-      controller: 'ChordCtrl',
-      templateUrl: 'views/chord.html'
-    })
-
-    .state('app.detail', {
-      url: '/albums/:id',
-      controller: 'AlbumCtrl',
-      templateUrl: 'views/album.html',
-      onExit: function(Mediaplayer) {
-        Mediaplayer.stop();
-      }
-    })
-
-    .state('app.lyric', {
-      url: '/lyric/:id',
-      controller: 'LyricCtrl',
-      templateUrl: 'views/lyric.html'
-    })
-
-  
 })
 
 .run(function($ionicPlatform, $timeout) {

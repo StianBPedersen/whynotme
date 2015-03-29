@@ -92,7 +92,11 @@ ion-tabs.tabs-color-active-positive .tab-item {
 }
 
 .labelmaker {
-	position:absolute;right: 10px;bottom: 14px;background:rgba(255,255,255,.4);padding: 5px 10px;
+	position:absolute;right: 10px;bottom: 14px;background:rgba(255,255,255,.3);padding: 5px 10px;
+}
+
+.profanity {
+	color:#f9900;
 }
 
 

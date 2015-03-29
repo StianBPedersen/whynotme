@@ -14,8 +14,8 @@
 					songs: [
 						{ 
 							title: 'Welcome to Metadonia', 
-							url: '2.07', 
-							duration: '',
+							url: 'When_nonsense_makes_perfect_sense/welcome_to_metadonia.mp3', 
+							duration: '2.07',
 							chords: 'Verse: C | D# | A# | G | G#\n'+
 											'Ref: C | D# | A# | G# G\n'+
 											'Part: G# | C :: A# | G :: (C | D D#)',
@@ -47,9 +47,43 @@
 
 						},
 						{ 
+							title: 'Hello cockatoo', 
+							url: 'When_nonsense_makes_perfect_sense/hello_cockatoo.mp3', 
+							duration: '1:55',
+							chords: 'Intro: Dm | Dmsus2\n'+
+											'Verse: Dm | Am | Dm | G | Dm :: G | Am | Dm\n'+
+											'Part: Dm | F | Am\n'+
+											'Outro: Dm | F | C | Am',
+							lyrics: 'A classic example of a boy\'s young mind. '+
+											'He tells the girl her breasts are fine. '+
+											'She\'s got a saggy ass that smells like shit. '+
+											'Never backing down for a willing young clit. '+
+											'(Never backing down for a willing young clit).\n\n'+
+											'You think you\'ve got a problem, well he got one too. '+
+											'He drops down his pants, say hello cockatoo. '+
+											'He\'s cock and his balls are ready to burst. '+
+											'It\'s not that big but it clense your thirst. '+
+											'(It\'s not that big but it clense your thirst).\n\n'+
+											'It might be small, but I got a trick. '+
+											'Do you wanna taste my Cheese Doodle dick. '+
+											'You can\'t take a bit, but you can lick. '+
+											'It\'s not that long and it\'s not that thick. '+
+											'Don\'t you wanna taste my Cheese Doodle dick .\n\n'+
+											'You think you\'ve got a problem, well he got one too. '+
+											'He drops down his pants, say hello cockatoo. '+
+											'He\'s cock and his balls are ready to burst. '+
+											'It\'s not that big but it clense your thirst. '+
+											'It might be small, but I got a trick. '+
+											'Do you wanna taste my Cheese Doodle dick. '+
+											'You can\'t take a bit, but you can lick. '+
+											'It\'s not that long and it\'s not that thick. '+
+											'Don\'t you wanna taste my Cheese Doodle dick.'
+											
+						},
+						{ 
 							title: 'Hate and aggression', 
-							url: '2:16', 
-							duration: '',
+							url: 'When_nonsense_makes_perfect_sense/hate_and_aggression.mp3', 
+							duration: '2:16',
 							chords: 'Intro: Dm | D/A# | F C\n'+
 											'Verse: Dm | F | C :: E | F | G :: D\n'+
 											'Ref: A# | G | Dm | F',
@@ -87,42 +121,8 @@
 
 						},
 						{ 
-							title: 'Hello cockatoo', 
-							url: '1:55', 
-							duration: '',
-							chords: 'Intro: Dm | Dmsus2\n'+
-											'Verse: Dm | Am | Dm | G | Dm :: G | Am | Dm\n'+
-											'Part: Dm | F | Am\n'+
-											'Outro: Dm | F | C | Am',
-							lyrics: 'A classic example of a boy\'s young mind. '+
-											'He tells the girl her breasts are fine. '+
-											'She\'s got a saggy ass that smells like shit. '+
-											'Never backing down for a willing young clit. '+
-											'(Never backing down for a willing young clit).\n\n'+
-											'You think you\'ve got a problem, well he got one too. '+
-											'He drops down his pants, say hello cockatoo. '+
-											'He\'s cock and his balls are ready to burst. '+
-											'It\'s not that big but it clense your thirst. '+
-											'(It\'s not that big but it clense your thirst).\n\n'+
-											'It might be small, but I got a trick. '+
-											'Do you wanna taste my Cheese Doodle dick. '+
-											'You can\'t take a bit, but you can lick. '+
-											'It\'s not that long and it\'s not that thick. '+
-											'Don\'t you wanna taste my Cheese Doodle dick .\n\n'+
-											'You think you\'ve got a problem, well he got one too. '+
-											'He drops down his pants, say hello cockatoo. '+
-											'He\'s cock and his balls are ready to burst. '+
-											'It\'s not that big but it clense your thirst. '+
-											'It might be small, but I got a trick. '+
-											'Do you wanna taste my Cheese Doodle dick. '+
-											'You can\'t take a bit, but you can lick. '+
-											'It\'s not that long and it\'s not that thick. '+
-											'Don\'t you wanna taste my Cheese Doodle dick.'
-											
-						},
-						{ 
 							title: 'Paint the town bright', 
-							url: '', 
+							url: 'When_nonsense_makes_perfect_sense/paint_the_town_bright.mp3', 
 							duration: '1:37',
 							chords: 'Verse: A# | C | D :: F\n'+
 											'Ref: A# | C | F | D | A# | C | F\n'+
@@ -145,8 +145,8 @@
 						},
 						{ 
 							title: 'Fuck you then', 
-							url: '1:38', 
-							duration: '',
+							url: 'When_nonsense_makes_perfect_sense/fuck_you_then.mp3', 
+							duration: '1:38',
 							chords: 'Intro: D | C D | D# D A# | A G | D# | A D D# D A | G\n'+
 											'Verse: D | G | D | C D | D# | A# | D# | E# D#\n'+
 											'Ref: G | Hb | F | C D | D# | D | G',
@@ -165,8 +165,8 @@
 						},
 						{ 
 							title: 'Beats me',
-							url: '2:11',
-							duration: '',
+							url: 'When_nonsense_makes_perfect_sense/beats_me.mp3',
+							duration: '2:11',
 							chords: 'Intro: H | F# | E | F# | D C# :: F# | G\n'+
 											'Verse: H | F# | E | F# | D C# :: E | G | D | A :: F# | G\n'+
 											'Bridge: E\n'+
@@ -200,7 +200,7 @@
 						},
 						{ 
 							title: 'Killer like killer', 
-							url: '', 
+							url: 'When_nonsense_makes_perfect_sense/killer_like_killer.mp3', 
 							duration: '3:12',
 							chords: 'Intro: G\n'+
 											'Verse: G | Hb | F | C | D\n'+
@@ -251,7 +251,7 @@
 						},
 						{ 
 							title: 'In a bag', 
-							url: '',
+							url: 'When_nonsense_makes_perfect_sense/in_a_bag.mp3',
 							duration: '1:49',
 							chords: 'Intro F# G\n'+
 											'Verse: G | C | G | G | F | G\n'+
@@ -284,31 +284,6 @@
 											'We\'re wasted now, it means alot\n\n.'+
 											'I am inside of a bag, everyone turnes around, but who is inside they don\'t know. '+
 											'I am inside of a bag, everyone turnes around, but who is inside they don\'t know.'
-						},
-						{ 
-							title: 'WNM', 
-							url: '', 
-							duration: '',
-							lyrics: 'Well here I stand with a mike in my hand, and I\'m doing the best that I can. '+
-											'I might sound like a mule, but pour me some fuel, shut the fuck up and take it like a man. '+
-											'We\'re pounds away in the mysterious ways, sometimes he even keeps the pace. '+
-											'When he falls out he listens to me, why the hell can\'t you just follow the bass?\n\n'+
-											'The reason is quite clear, cause the bass is never here. '+
-											'He\'s at home devouring burgers, drinking beer. '+
-											'We miss you big bastard, follow him not me. '+
-											'Some reason we wish you we\'re here.\n\n'+
-											'Barry plays guitar when not hitting the bars, at the age of 32 he starts to drink. '+
-											'Moved to the city and we know it won\'t end pretty, at least we hope he ends up with some ink. '+
-											'Even Folke tries to play and he might succeed some day, but for now we find that hard to believe. '+
-											'He doens\'t rehearse, forget every verse, he makes it hard to be Whynotme.\n\n'+
-											'Sometimes we\'re angry, sometimes we don\'t give a fuck. '+
-											'Thats the upside when you\'re unsigned, you can leave it all behind when you get stuck. '+
-											'We sing about politics it makes me sick. '+
-											'We sing about ass, pussy, suck my dick. '+
-											'No one really cares so why should we. '+
-											'No one really listens to Whynotme.'
-
-
 						}
 					]
 				},
@@ -696,13 +671,7 @@
 				 							'Take this song and shut, shut the fuck up. '+
 				 							'TL what the hell.'
 
- 						},
- 						{ 
- 							title: 'Fuckalujah', 
- 							url: 'And_out_came_shit_I/Fuckalujah.mp3', 
- 							duration: '',
- 							lyrics: ''
- 						},
+ 						}
  					]
  				},
  				{ 

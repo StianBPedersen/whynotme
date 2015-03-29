@@ -7,7 +7,7 @@
             <i class="icon ion-chevron-down" style="font-size: 24px;"></i>
           </span>
           <h3>{{ $index+1 + ". " + song.title }}</h3>
-	      	<pre style="text-indent:0;">{{ song.lyrics }}</pre>
+	      	<pre style="text-indent:0;">{{ song.lyrics | profanity }}</pre>
 		 		</div>
 				<div ng-show="+playingIndex !== +$index" ng-click="showLyrics($index)" class="selected">
 					<h3>{{ $index+1 + ". " + song.title }}</h3>
