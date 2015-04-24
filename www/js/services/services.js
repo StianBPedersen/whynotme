@@ -690,7 +690,20 @@
  											'Ref: C | A | E | G :: C | A | E\n'+
  											'Part: C | A | E'+
  											'Outro: C | A | E | G',
- 							lyrics: ''
+ 							lyrics: 'Yeah you saw me. Down and apart. Down on my knees. Begging you please can you spare a dime. '+
+ 											'Obviously not. I\'m out on my own. Fuck this shit I can get drunk at home. '+
+ 											'I don\'t need your pity. Your stearing sober eyes looking down at me. '+
+ 											'A tired old punk. Well established on the floor and I live when I am done.\n\n'+
+ 											'This is the night sparkling chandeliers\n\n'+
+ 											'This is the night sparkling chandeliers. White sterile clothing. To reflect pure state of mind (no mind of mine)\n\n'+
+ 											'Yeah, you notised. I was in pain. Remember my name. Sais don\'t ever come back again. '+
+ 											'Kick where its soft. Avoid breaking bones. This is a lesson from guilty donors. '+
+ 											'All this it needs is self pity. Someone to blame preferably a hippy. '+
+ 											'I don\'t know. Neither do you. I\'m a canine broken out from the (zoo).\n\n'+
+ 											'This is the night sparkling chandeliers\n\n'+
+ 											'This is the night sparkling chandeliers. White sterile clothing. To reflect pure state of mind (no mind of mine)\n\n'+
+ 											'This is the night fucking chandeliers\n\n'+
+ 											'This is the night fucking chandeliers. Blood stained clothing. To reflect dark state of mind'
  						}
  					]
  				},
